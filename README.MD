@@ -29,7 +29,7 @@ sudo eselect repository add cursor-bin-overlay git https://github.com/techoraye/
 ### Sync the overlay
 
 ```sh
-emaint sync -r cursor-bin-overlay
+sudo emaint sync -r cursor-bin-overlay
 ```
 
 ### Accept the keyword
@@ -37,13 +37,13 @@ emaint sync -r cursor-bin-overlay
 Cursor is provided as a `~amd64` binary package.
 
 ```sh
-echo "app-editors/cursor-bin ~amd64" >> /etc/portage/package.accept_keywords/cursor
+sudo echo "app-editors/cursor-bin ~amd64" >> /etc/portage/package.accept_keywords/cursor
 ```
 
 ### Install Cursor
 
 ```sh
-emerge app-editors/cursor-bin
+sudo emerge app-editors/cursor-bin
 ```
 
 ---
