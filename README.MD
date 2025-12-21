@@ -43,7 +43,7 @@ echo "app-editors/cursor-bin ~amd64" | sudo tee -a /etc/portage/package.accept_k
 ### Install Cursor
 
 ```sh
-sudo emerge app-editors/cursor-bin
+sudo emerge --ask app-editors/cursor-bin
 ```
 
 ---
