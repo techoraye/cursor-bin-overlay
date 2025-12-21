@@ -23,7 +23,7 @@ Portage install, with clean dependency handling and uninstall support.
 ### Add the overlay
 
 ```sh
-eselect repository add cursor-bin-overlay git https://github.com/techoraye/cursor-bin-overlay.git
+sudo eselect repository add cursor-bin-overlay git https://github.com/techoraye/cursor-bin-overlay.git
 ````
 
 ### Sync the overlay
