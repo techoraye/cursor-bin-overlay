@@ -37,7 +37,7 @@ sudo emaint sync -r cursor-bin-overlay
 Cursor is provided as a `~amd64` binary package.
 
 ```sh
-sudo echo "app-editors/cursor-bin ~amd64" >> /etc/portage/package.accept_keywords/cursor
+echo "app-editors/cursor-bin ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/cursor
 ```
 
 ### Install Cursor
