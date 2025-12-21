@@ -63,7 +63,7 @@ Cursor may also appear in your desktop menu depending on your environment.
 ## Uninstall
 
 ```sh
-emerge -C app-editors/cursor-bin
+sudo emerge -C app-editors/cursor-bin
 ```
 
 ---
